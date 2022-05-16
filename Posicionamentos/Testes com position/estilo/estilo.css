@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    color: white;
+    margin: 5px;
+}
+
+/*
+Estilos para a area principal
+*/
+.container-principal {
+    width: 100%;
+    height: 500px;
+    
+    background-color: burlywood;
+
+    position: relative;
+}
+
+/*
+Estilos para cada area
+*/
+.area1 {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+
+    width: 315px;
+    height: 150px;
+
+    background-color:  red;
+}
+
+.area2 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+    width: 250px;
+    height: 200px;
+
+    background-color: green;
+}
+
+.area3 {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+
+    width: 100px;
+    height: 100px;
+
+    background-color: blue;
+}

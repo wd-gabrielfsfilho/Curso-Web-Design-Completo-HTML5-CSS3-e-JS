@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Configuração do container que representa a linha*/
+.linha {
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.linha::after {
+    content: "";
+
+    clear: both;
+    display: table;
+}
+
+/*configuração individual das colunas*/
+.coluna-1 {
+    float: left;
+    border: 1px solid black;
+
+    width: 12.5%;
+
+    box-sizing: border-box;
+}
+
+.coluna-2 {
+    float: left;
+    border: 1px solid black;
+
+    width: 25%;
+
+    box-sizing: border-box;
+}
+
+.coluna-3 {
+    float: left;
+    border: 1px solid black;
+
+    width: 37.5%;
+
+    box-sizing: border-box;
+}
+
+.coluna-4 {
+    float: left;
+    border: 1px solid black;
+
+    width: 50%;
+
+    box-sizing: border-box;
+}
+
+.coluna-5 {
+    float: left;
+    border: 1px solid black;
+
+    width: 62.5%;
+
+    box-sizing: border-box;
+}
+
+.coluna-6 {
+    float: left;
+    border: 1px solid black;
+
+    width: 75%;
+
+    box-sizing: border-box;
+}
+
+.coluna-7 {
+    float: left;
+    border: 1px solid black;
+
+    width: 87.5%;
+
+    box-sizing: border-box;
+}
+
+.coluna-8 {
+    float: left;
+    border: 1px solid black;
+
+    width: 100%;
+
+    box-sizing: border-box;
+}

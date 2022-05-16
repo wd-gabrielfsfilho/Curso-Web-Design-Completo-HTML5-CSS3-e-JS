@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html5, css, grid view simplificado">
+    <title>Simplificando o Grid View</title>
+
+    <style>
+        /*configuração da linha*/
+        .linha {
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .linha::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /*configuração das colunas*/
+        .coluna {
+            float: left;
+            box-sizing: border-box;
+            border: 1px solid yellow;
+        }
+
+        /*largura até 8 colunas*/
+        .um {
+            width: 12.5%;
+        }
+
+        .dois {
+            width: 25%;
+        }
+
+        .tres {
+            width: 37.5%;
+        }
+
+        .quatro {
+            width: 50%;
+        }
+
+        .cinco {
+            width: 62.5%;
+        }
+
+        .seis {
+            width: 75%;
+        }
+
+        .sete {
+            width: 87.5%;
+        }
+
+        .oito {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="linha">
+        <div class="coluna tres">
+            <p>Ea aliqua sit aute proident est. Velit ullamco nostrud nostrud veniam in. Nisi laboris laboris elit aute cillum do non minim commodo occaecat ut sint excepteur laborum. Eu ad reprehenderit pariatur consectetur aute non. Cupidatat Lorem voluptate pariatur velit.</p>
+            <p>Ea aliqua sit aute proident est. Velit ullamco nostrud nostrud veniam in. Nisi laboris laboris elit aute cillum do non minim commodo occaecat ut sint excepteur laborum. Eu ad reprehenderit pariatur consectetur aute non. Cupidatat Lorem voluptate pariatur velit.</p>
+        </div>
+        <div class="coluna cinco">
+            <p>Ea aliqua sit aute proident est. Velit ullamco nostrud nostrud veniam in. Nisi laboris laboris elit aute cillum do non minim commodo occaecat ut sint excepteur laborum. Eu ad reprehenderit pariatur consectetur aute non. Cupidatat Lorem voluptate pariatur velit.</p>
+        </div>
+        
+    </div>
+
+</body>
+</html>

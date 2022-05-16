@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    color: white;
+    margin: 5px;
+}
+
+/*
+Estilos para a area principal
+*/
+.container-principal {
+    width: 100%;
+    padding: 5px;
+    background-color: burlywood;
+
+    box-sizing: border-box;
+}
+
+.container-principal::after {
+    content: "";
+    clear: both;
+    display: table;                 /*permite a expansão do container automatico*/
+}
+
+/*
+Estilos para cada area
+*/
+.area1 {
+    float: left;
+
+    background-color:  red;
+    width: 20%;
+    height: 80px;
+
+    box-sizing: border-box;
+}
+
+.area2 {
+    float: left;
+
+    background-color: green;
+    width: 60%;
+    height: 150px;
+
+    box-sizing: border-box;
+}
+
+.area3 {
+    float: left;
+
+    background-color: blue;
+    width: 20%;
+    height: 200px;
+
+    box-sizing: border-box;
+}

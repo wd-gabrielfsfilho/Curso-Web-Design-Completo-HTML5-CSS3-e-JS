@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Configuração do container que representa a linha*/
+.linha {
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.linha::after {
+    content: "";
+
+    clear: both;
+    display: table;
+}
+
+/*configuração individual das colunas*/
+.coluna-1 {
+    float: left;
+    border: 1px solid black;
+
+    width: 8.33%;
+
+    box-sizing: border-box;
+}
+
+.coluna-2 {
+    float: left;
+    border: 1px solid black;
+
+    width: 16.66%;
+
+    box-sizing: border-box;
+}
+
+.coluna-3 {
+    float: left;
+    border: 1px solid black;
+
+    width: 25%;
+
+    box-sizing: border-box;
+}
+
+.coluna-4 {
+    float: left;
+    border: 1px solid black;
+
+    width: 33.33%;
+
+    box-sizing: border-box;
+}
+
+.coluna-5 {
+    float: left;
+    border: 1px solid black;
+
+    width: 41.65%;
+
+    box-sizing: border-box;
+}
+
+.coluna-6 {
+    float: left;
+    border: 1px solid black;
+
+    width: 50%;
+
+    box-sizing: border-box;
+}
+
+.coluna-7 {
+    float: left;
+    border: 1px solid black;
+
+    width: 58.33%;
+
+    box-sizing: border-box;
+}
+
+.coluna-8 {
+    float: left;
+    border: 1px solid black;
+
+    width: 66.66%;
+
+    box-sizing: border-box;
+}
+
+.coluna-9 {
+    float: left;
+    border: 1px solid black;
+
+    width: 75%;
+
+    box-sizing: border-box;
+}
+
+.coluna-10 {
+    float: left;
+    border: 1px solid black;
+
+    width: 83.33%;
+
+    box-sizing: border-box;
+}
+
+.coluna-11 {
+    float: left;
+    border: 1px solid black;
+
+    width: 91.63%;
+
+    box-sizing: border-box;
+}
+
+.coluna-12 {
+    float: left;
+    border: 1px solid black;
+
+    width: 100%;
+
+    box-sizing: border-box;
+}

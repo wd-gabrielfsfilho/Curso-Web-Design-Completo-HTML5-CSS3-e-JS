@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    color: white;
+    margin: 5px;
+}
+
+/*
+Estilos para as areas principais
+*/
+.container1 {
+    height: 350px;
+    background-color: burlywood;
+    margin: 5px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center; /*flex-start, center, flex-end, space-between, space-around*/
+    align-items: center;
+}
+
+/*
+Estilos para a area interna
+*/
+.area1 {
+    background-color:  green;
+    width: 20%;
+    margin: 5px;
+
+    box-sizing: border-box;
+}
+
+
+
+.container2 {
+    height: 350px;
+    background-color: burlywood;
+    margin: 5px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-between; /*flex-start, center, flex-end, space-between, space-around*/
+    align-items: center;
+}
+
+/*
+Estilos para a area interna
+*/
+.area2 {
+    background-color:  green;
+    width: 20%;
+    margin: 5px;
+
+    box-sizing: border-box;
+}
+
+
+
+.container3 {
+    height: 350px;
+    background-color: burlywood;
+    margin: 5px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-around; /*flex-start, center, flex-end, space-between, space-around*/
+    align-items: center;
+}
+
+/*
+Estilos para a area interna
+*/
+.area3 {
+    background-color:  green;
+    width: 20%;
+    margin: 5px;
+
+    box-sizing: border-box;
+}
+
+
+
+.container4 {
+    height: 350px;
+    background-color: burlywood;
+    margin: 5px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-between; /*flex-start, center, flex-end, space-between, space-around*/
+}
+
+/*
+Estilos para a area interna
+*/
+.area4 {
+    background-color: green;
+    width: 20%;
+    margin: 5px;
+
+    box-sizing: border-box;
+
+    align-self: flex-start;
+}
+
+.area5 {
+    background-color: green;
+    width: 20%;
+    margin: 5px;
+
+    box-sizing: border-box;
+
+    align-self: center;
+}
+
+.area6 {
+    background-color: green;
+    width: 20%;
+    margin: 5px;
+
+    box-sizing: border-box;
+
+    align-self: flex-end;
+}
