@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Como criar um elemento li no DOM</title>
+</head>
+<body>
+    <input type="button" value="asd" id="botao">
+    <ul id="lista">
+        <li>Primeiro elemento</li>
+    </ul>
+
+    <script>
+        var contador = 0;
+
+        function click(){
+            //primeiro cria-se o elemento solto
+            var li = document.createElement("li");
+            li.innerHTML = "esse elemento é o numero "+contador;
+            contador += 1;
+
+
+
+            //teste para criacao de atributos
+            var classe = document.createAttribute("class");
+            classe.value = "nome da classe";
+
+            li.setAttributeNode(classe);
+
+
+
+            //link a variavel com o elemento lista do DOM
+            ul = document.getElementById("lista");
+
+            //cria o elemento dentro da lista
+            ul.appendChild(li);
+        }
+
+        function init(){
+            var botao = document.getElementById("botao");
+            botao.onclick = click;
+        }
+        window.onload = init;
+    </script>
+</body>
+</html>
